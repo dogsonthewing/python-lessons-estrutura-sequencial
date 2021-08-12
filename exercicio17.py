@@ -4,7 +4,7 @@ tamanhoparede = float(input("digite "))
 precolata = 80
 precogalao = 25
 
-litros = tamanhoparede 6
+litros = tamanhoparede / 6
 latas = math.ceil(litros / 18)
 galoes = math.ceil(float(litros / 3.6))
 
